@@ -10,14 +10,16 @@ gem "coffee-rails", "~> 4.2"
 gem "font-awesome-rails"
 gem "jbuilder", "~> 2.5"
 gem "jquery-rails"
+gem "lorem_ipsum_amet"
 gem "puma", "~> 3.0"
 gem "rails", "~> 5.0.4"
-gem "sass-rails", "~> 5.0"
-gem "turbolinks", "~> 5"
-gem "uglifier", ">= 1.3.0"
 gem "rubocop", "0.49.1", require: false
 gem "rubocop-checkstyle_formatter", require: false
+gem "sass-rails", "~> 5.0"
 gem "scss_lint", require: false
+gem "scss_lint_reporter_checkstyle", require: false
+gem "turbolinks", "~> 5"
+gem "uglifier", ">= 1.3.0"
 
 group :development, :test do
   gem "byebug", platform: :mri

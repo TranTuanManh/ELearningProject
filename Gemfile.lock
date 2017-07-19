@@ -76,6 +76,7 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.7)
     loofah (2.0.3)
       nokogiri (>= 1.5.9)
+    lorem_ipsum_amet (0.6.2)
     mail (2.6.6)
       mime-types (>= 1.16, < 4)
     method_source (0.8.2)
@@ -151,6 +152,7 @@ GEM
     scss_lint (0.54.0)
       rake (>= 0.9, < 13)
       sass (~> 3.4.20)
+    scss_lint_reporter_checkstyle (0.2.0)
     spring (2.0.2)
       activesupport (>= 4.2)
     spring-watcher-listen (2.0.1)
@@ -195,6 +197,7 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
+  lorem_ipsum_amet
   pg
   puma (~> 3.0)
   rails (~> 5.0.4)
@@ -203,6 +206,7 @@ DEPENDENCIES
   rubocop-checkstyle_formatter
   sass-rails (~> 5.0)
   scss_lint
+  scss_lint_reporter_checkstyle
   spring
   spring-watcher-listen (~> 2.0.0)
   sqlite3

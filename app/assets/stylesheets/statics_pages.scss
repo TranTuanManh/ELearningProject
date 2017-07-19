@@ -9,6 +9,8 @@ $midnight-blue: #2c3e50;
 $gray-medium-light: #eaeaea;
 $blue-soft: #0b3e71;
 $blue-softer: #0d64b0;
+$gray-light: #ecf0f1;
+$emerald: #16a085;
 
 
 body {
@@ -39,36 +41,55 @@ h6 {
 //header
 .header {
   background-color: transparent;
+  padding-top: 3%;
+
+  .btn-white {
+    background-color: $white;
+    border-radius: 100px;
+
+    &:hover {
+      background-color: $blue-mint;
+      color: $white;
+    }
+  }
 }
 
-.img-reponsive {
-  padding-top: 5%;
+.brand {
   width: 70%;
 }
 
-.btn-white {
-  background-color: $white;
-  border-radius: 100px;
+.img-reponsive {
+  margin-top: 3%;
+  padding: 5%;
+  width: 59%;
 }
 
+.about {
+  padding: 3%;
+}
 
 .sign-in-btn {
   color: $blue-mint;
   margin-top: 2%;
-
-
-  &:hover {
-    background-color: $blue-mint;
-    color: $white;
-  }
+}
+// scss-lint:disable VendorPrefix
+.affix {
+  background-color: $emerald;
+  padding-top: 0;
+  position: fixed;
+  top: 0;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  width: 100%;
+  z-index: 99;
 }
 //footer
 
 footer {
-  background-color: $midnight-blue;
+  background-color: $emerald;
   border-top: 1px solid $gray-medium-light;
   color: $white;
-  margin-top: 100%;
+  margin-top: 8%;
   padding-top: 5px;
 }
 
@@ -89,7 +110,7 @@ footer {
 }
 
 .content {
-  margin-top: -13%;
+  margin-top: 9%;
 }
 
 .splash-globe {
@@ -97,6 +118,33 @@ footer {
   background-size: 475px;
   display: table-cell;
   height: 475px;
+  left: 13%;
+  opacity: .8;
+  position: absolute;
   vertical-align: center;
   width: 475px;
+}
+
+.contant-bellow {
+  background: $white;
+  margin-top: 5%;
+  padding: 4%;
+  width: 100%;
+}
+
+.catetogory {
+  margin-top: 6%;
+
+  .course {
+    text-align: center;
+  }
+
+  h1 {
+    color: $white;
+    margin-bottom: 3%;
+  }
+
+  .cat-tilte {
+    margin: 8%;
+  }
 }
