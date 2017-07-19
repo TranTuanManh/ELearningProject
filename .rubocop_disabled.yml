@@ -16,7 +16,7 @@ Style/Documentation:
   Description: "Document classes and non-namespace modules."
   Enabled: false
 
-Style/EmptyLinesAroundAccessModifier:
+Layout/EmptyLinesAroundAccessModifier:
   Description: "Keep blank lines around access modifiers."
   Enabled: false
 
@@ -44,7 +44,7 @@ Metrics/CyclomaticComplexity:
   Description: "Avoid complex methods."
   Enabled: false
 
-Style/AlignArray:
+Layout/AlignArray:
   Description: >-
                  Align the elements of an array literal if they span more than
                  one line.
@@ -64,3 +64,25 @@ Lint/AssignmentInCondition:
   Description: "Don't use assignment in conditions."
   Enabled: false
 
+Style/EmptyMethod:
+  Enabled: false
+Layout/AlignHash:
+  Enabled: false
+SpaceInsideHashLiteralBraces:
+  EnforcedStyle: no_space
+  EnforcedStyleForEmptyBraces: space
+Layout/TrailingWhitespace:
+  Enabled: false
+AlignParameters:
+  EnforcedStyle: with_fixed_indentation
+StringLiterals:
+  Enabled: false
+Style/MethodDefParentheses:
+  Enabled: false
+Metrics/AbcSize:
+  Enabled: false
+Style/ConditionalAssignment:
+  Enabled: false
+Layout/IndentationConsistency:
+  Description: "Keep indentation straight."
+  Enabled: false
