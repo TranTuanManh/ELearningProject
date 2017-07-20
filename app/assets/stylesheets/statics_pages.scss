@@ -1,0 +1,102 @@
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+@import 'font-awesome';
+
+// color var
+$white: #fff;
+$blue-mint: #1abc9c;
+$midnight-blue: #2c3e50;
+$gray-medium-light: #eaeaea;
+$blue-soft: #0b3e71;
+$blue-softer: #0d64b0;
+
+
+body {
+  background-image: url('star-pattern1.svg'), linear-gradient(to bottom, $blue-soft, $blue-softer);
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+p {
+  font-size: 20px;
+
+  .small {
+    font-size: 16px;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+//header
+.header {
+  background-color: transparent;
+}
+
+.img-reponsive {
+  padding-top: 5%;
+  width: 70%;
+}
+
+.btn-white {
+  background-color: $white;
+  border-radius: 100px;
+}
+
+
+.sign-in-btn {
+  color: $blue-mint;
+  margin-top: 2%;
+
+
+  &:hover {
+    background-color: $blue-mint;
+    color: $white;
+  }
+}
+//footer
+
+footer {
+  background-color: $midnight-blue;
+  border-top: 1px solid $gray-medium-light;
+  color: $white;
+  margin-top: 100%;
+  padding-top: 5px;
+}
+
+//content
+
+.btn-success {
+  border-radius: 100px;
+}
+
+.center {
+  background-color: transparent;
+  color: $white;
+  text-align: center;
+
+  h1 {
+    margin-bottom: 10px;
+  }
+}
+
+.content {
+  margin-top: -13%;
+}
+
+.splash-globe {
+  background-image: url('globe1.svg');
+  background-size: 475px;
+  display: table-cell;
+  height: 475px;
+  vertical-align: center;
+  width: 475px;
+}
